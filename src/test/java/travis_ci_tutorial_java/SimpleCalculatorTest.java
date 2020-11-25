@@ -12,5 +12,6 @@ public class SimpleCalculatorTest {
 		assertEquals(calc.add(1, 1), 2);
 		assertEquals(calc.minus(5, 3), 2);
 		assertEquals(calc.mult(4 , 3), 12);
+		assertEquals(calc.div(4 , 4), 1);
 	}
 }
